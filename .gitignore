@@ -178,3 +178,4 @@ cython_debug/
 
 # Azure Pipelines
 src/azure
+*.pkl

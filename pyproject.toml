@@ -8,6 +8,11 @@ dependencies = [
     "azureml-sdk>=1.0.23",
     "ipykernel>=6.29.5",
     "kagglehub>=0.3.10",
+    "matplotlib>=3.10.1",
+    "numpy==2.1",
     "pandas>=2.2.3",
     "python-dotenv>=1.1.0",
+    "scikit-learn>=1.6.1",
+    "shap>=0.47.1",
+    "xgboost>=3.0.0",
 ]
