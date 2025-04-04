@@ -13,7 +13,7 @@ def init():
 
 
 def run(raw_data):
-  try: ## Try la predicciï¿½n.
+  try: ## Try la predicción.
     data = json.loads(raw_data)['data'][0]
     data = pd.DataFrame(data)
 
