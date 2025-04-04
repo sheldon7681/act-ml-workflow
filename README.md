@@ -10,17 +10,19 @@
 
     - En caso de no querer usar uv, instalar con pip las versiones de librerías que aparecen en pyproject.toml
 
-3. Cargar el archivo prueba.csv en la carpeta de `data`
+3. Dentro de la carpeta raíz crear un archivo .env que contenga el id de la suscripción con la que se generó el grupo de recursos, dentro de él escribir el id de la siguiente manera: **MY_SECRET=<id-de-la-suscripción>**
 
-4. Cargar el uri2.json dentro de la carpeta `src`
+4. Cargar el archivo prueba.csv en la carpeta de `data`
 
-5. Ejecutar DataPreprocessing.ipynb
+5. Cargar el uri2.json dentro de la carpeta `src`
 
-6. Ejecutar model_dummy.ipynb
+6. Ejecutar DataPreprocessing.ipynb
 
-7. Ejecutar despliegue.ipynb
+7. Ejecutar model_dummy.ipynb
 
-8. Ejecutar API.ipynb, donde se hace inferencia con el archivo llamado *prueba.csv* dentro de la carpeta `data`
+8. Ejecutar despliegue.ipynb
+
+9. Ejecutar API.ipynb, donde se hace inferencia con el archivo llamado *prueba.csv* dentro de la carpeta `data`
 
 ## Especificaciones de software mínimo:
 
